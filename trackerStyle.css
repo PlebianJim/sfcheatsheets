@@ -1,0 +1,128 @@
+* { 
+	box-sizing: content-box;
+}
+
+html, body {
+	min-height: 100%;
+	color: #000;
+    font-family: "Audiowide", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://i.ibb.co/zHSL1Fj/background-Starfield.jpg");
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 70%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: transparent; /* transparent*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    text-shadow: 2px 2px #f97a37;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #05abe7;
+    text-shadow: 2px 2px #f97a37;
+  }
+  
+  /* Position and style the close button (top left corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: -10px;
+    left: -65px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .2s;
+    padding: 0px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+ /* style the "menu" button in the middle of the screen that opens the side menu */ 
+ i {
+    position: fixed;
+    left: 46%;
+    top: 10px;
+    z-index: 999;
+    font-size: xx-large;
+ }
+
+  /* When the user hovers over the menu icon */ 
+i:hover {
+    cursor: pointer;
+ }
+
+
+ /* Initiative table */
+
+ #initiativeTrackerTable {
+    color: aliceblue;
+    position: relative;
+    left: 3%;
+    top: 100px;
+ }
+
+ tr {
+    height: 100px; 
+    width: 400px;
+    border: #f1f1f1 solid 3px;
+    color: aliceblue;
+ }
+
+
+
+ th {
+    height: 100px; 
+    width: 400px;
+    color: aliceblue;
+ }
+
+ #initTrackerCells {
+    height: 100px; 
+    width: 400px;
+
+ }
+
+ button {
+    transition-duration: 0.2s;
+    background-color: #05abe7;; /* Blue */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Audiowide", sans-serif;
+ }
